@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(135deg, #639cff, #00d9ff, #005eff);
+}
+
+header {
+  padding: 15px 30px;
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.home {
+  font-size: 15px;
+  margin-left: 100px;
+  padding: 8px 14px;
+  background-color: #00D9FF;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  height: 40px;
+  border: none;
+}
+
+.home:hover {
+  background-color: #039fbb;
+}
+
+main {
+  padding: 130px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.form-section,
+.cards-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-section h2,
+.cards-section h2 {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn {
+  width: 100%;
+  height: 8vh;
+  background-color: #00D9FF;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #039fbb;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card-buttons {
+  margin-top: 10px;
+}
+
+.card-buttons button {
+  padding: 6px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editar {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.excluir {
+  background-color: #d9534f;
+  color: white;
+}

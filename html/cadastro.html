@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+    <title>Cadastro</title>
+    <link href="/css/cadastro.css" rel="stylesheet">
+    <link href="/css/cadastroresponsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            NextRoute
+        </div>
+        <nav>
+            <button onclick="window.location.href='index.html'" class="home">Home</button>
+        </nav>
+    </header>
+
+    <main>
+        <form id="cadastroForm">
+            <h1>cadastro</h1>
+
+            <input type="text" placeholder="Seu nome " id="nome" required>
+            <input type="email" placeholder="Seu email " id="email" required>
+            <input type="password" placeholder="Criar senha " id="senha" required>
+            <input type="password" placeholder="Confirmar senha " id="confirmarSenha" required>
+
+            <button type="submit">cadastro</button>
+
+            <p class="login-link">
+                Já tem uma conta?
+                <a href="/html/login.html">Faça login</a>
+            </p>
+        </form>
+    </main>
+
+    <script src="/js/cadastro.js"></script>
+</body>
+</html>

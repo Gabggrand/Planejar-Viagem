@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #639cff, #00d9ff, #005eff);
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+header {
+    padding: 15px 30px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.logo {
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.home {
+    font-size: 15px;
+    margin-left: 100px;
+    padding: 8px 14px;
+    background-color: #00D9FF;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    height: 40px;
+}
+
+.home:hover {
+    background-color: #039fbb;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+form {
+    display: flex;
+    border: 3px solid white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55vh;
+    height: 55vh;
+    gap: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 70%;
+    height: 5vh;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 70%;
+    height: 5vh;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #009ccc;
+}
+
+.login-link {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+  color: #005eff;
+}

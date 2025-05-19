@@ -1,0 +1,55 @@
+@media (max-widht: 768px) {
+    body {
+        background-color: brown;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .form-section,
+    .cards-section {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+    @media (max-widht: 480px) {
+        main {
+            padding: 30px 10px;
+        }
+
+        form input,
+        form textarea {
+            max-width: 100%;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            height: 50%;
+        }
+
+        .card {
+            padding: 10px;
+        }
+
+        .card-buttons button {
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        .logo {
+            font-size: 22px;
+        }
+
+        .home {
+            margin-left: 10px;
+            font-size: 14px;
+            height: 36px;
+            padding: 6px 12px;
+        }
+    }
