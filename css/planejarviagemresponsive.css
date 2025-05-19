@@ -1,55 +1,63 @@
-@media (max-widht: 768px) {
-    body {
-        background-color: brown;
-    }
-
+@media (max-width: 768px) {
     main {
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 40px 20px;
+        gap: 30px;
     }
 
     .form-section,
     .cards-section {
         max-width: 100%;
         width: 100%;
-        margin-bottom: 30px;
     }
-    
+
+    header {
+        display: flex;
+        gap: 10px;
+    }
+
+    .home {
+        margin-left: 0;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
 }
 
-    @media (max-widht: 480px) {
-        main {
-            padding: 30px 10px;
-        }
-
-        form input,
-        form textarea {
-            max-width: 100%;
-            width: 100%;
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            height: 50%;
-        }
-
-        .card {
-            padding: 10px;
-        }
-
-        .card-buttons button {
-            padding: 5px 10px;
-            font-size: 14px;
-        }
-
-        .logo {
-            font-size: 22px;
-        }
-
-        .home {
-            margin-left: 10px;
-            font-size: 14px;
-            height: 36px;
-            padding: 6px 12px;
-        }
+@media (max-widht: 480px) {
+    main {
+        padding: 30px 10px;
     }
+
+    form input,
+    form textarea {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        height: 50%;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card-buttons button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .home {
+        margin-left: 10px;
+        font-size: 14px;
+        height: 36px;
+        padding: 6px 12px;
+    }
+}
