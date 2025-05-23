@@ -125,3 +125,64 @@
         height: 30%;
     }
 }
+
+@media (max-width: 375px) {
+
+    .box3,
+    .box6,
+    .box9 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box4,
+    .box5,
+    .box7,
+    .box8,
+    .box10,
+    .box11 {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .box5 img,
+    .box8 img,
+    .box11 img {
+        display: none;
+    }
+
+    .textos {
+        font-size: 15px;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .linha1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .login,
+    .cadastro {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .box {
+        width: 50%;
+        height: 30%;
+    }
+}
