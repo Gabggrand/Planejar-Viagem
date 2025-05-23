@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         alert('Login efetuado com sucesso!');
-        window.location.href = '/html/index.html';
+        window.location.href = 'index.html';
     });
 });

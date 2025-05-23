@@ -31,6 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
         alert('Cadastro realizado com sucesso! Faça o login para continuar.');
-        window.location.href = '/html/login.html';
+        window.location.href = 'login.html';
     });
 });
